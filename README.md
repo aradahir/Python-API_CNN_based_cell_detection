@@ -9,3 +9,5 @@
 - Training data was labeled as cells by experts before trained the model.
 
 - This code can be implemented in various application of image processing.
+
+- API was developed under python environment.
