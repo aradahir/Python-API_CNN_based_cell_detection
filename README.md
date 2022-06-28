@@ -1,4 +1,4 @@
-# cell_count
+# Python-API_cell_detection
 
 - This code developed for counting cells that are measured by customized cell counters. 
 
