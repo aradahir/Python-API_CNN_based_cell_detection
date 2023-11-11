@@ -1,16 +1,27 @@
-# Python-API_cell_detection
+# Automatic cell detection interface
 
-- This code developed for counting cells that are measured by customized cell counters. 
+A program for counting cells from waveguide cell counter technology. 
 
-- I tried to apply a deep neural network for classify and identify cells for counting.
+# General info
 
-- All codes perform in python using some additional libraries such as openCV.
+This project is implemented the model from training deep neural network. The model were constructed by using cells derived from cell counter snapshot. Cells were identified by the different reflection of microwave energy.
 
-- Training data was labeled as cells by experts before trained the model.
+# Technologies
+This project created with:
 
-- This code can be implemented in various application of image processing.
+1. Python version >=3.6
+2. Opencv
+3. Tensorflow
+4. PySimpleGUI
 
-- API was developed under python environment.
+# Run
+ ```
+Python GUI.py
+ ```
 
 # Example result
 <img width="547" alt="Screenshot 2023-11-11 at 11 08 03 pm" src="https://github.com/aradahir/Python-API_CNN_based_cell_detection/assets/53826717/6a339be7-fc24-491b-a8af-bc1d6baf47a2">
+
+# Warning
+Model can be modified by changing the notebook file 'CNN.ipynb'
+
